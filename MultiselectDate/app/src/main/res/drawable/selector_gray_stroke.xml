@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--灰色边框按钮-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape >
+            <corners android:radius="2dp"></corners>
+            <solid android:color ="#ECECEC"></solid>
+        </shape>
+        </item>
+        <item >
+           <shape >
+            <corners android:radius="2dp"></corners>
+            <solid android:color ="@android:color/white"></solid>
+            <stroke android:color="#bdbdbd" android:width="0.5dp"></stroke>
+        </shape>  
+        </item>
+</selector>

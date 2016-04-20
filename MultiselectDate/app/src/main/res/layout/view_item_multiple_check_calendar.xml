@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/tv_day"
+              android:orientation="vertical"
+              android:layout_width="35dp"
+              android:layout_height="35dp"
+              android:gravity="center"
+              android:textColor="#7F7F7F"
+              android:textSize="14dp"
+              android:background="@drawable/shape_stroke_gray_corners"
+              />
